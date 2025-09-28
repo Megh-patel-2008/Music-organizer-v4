@@ -84,5 +84,20 @@ public class Track
         this.title = title;
         this.filename = filename;
     }
+    //Question 29
+    private int playCount;
+
+    public void resetPlayCount() {
+    playCount = 0;
+    }
+
+    public void incrementPlayCount() {
+    playCount++;
+    }
+
+    public int getPlayCount() {
+    return playCount;
+    }
+
     
 }

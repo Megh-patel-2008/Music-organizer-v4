@@ -22,3 +22,52 @@ play them. Just make sure the filename is of the expected format:
 
 Questions:
 
+29.In the code
+30.In the code
+31-32-32. Did not understand what to do
+33.
+boolean found = false;
+while(!found) {
+    if(the keys are in the next place) {
+        found = true;
+    }
+}
+34.
+public void multiplesOfFive() {
+    int n = 10;
+    while(n <= 95) {
+        System.out.println(n);
+        n += 5;
+    }
+}
+35.
+int total = 0;
+int n = 1;
+while(n <= 10) {
+    total += n;
+    n++;
+}
+System.out.println("Sum = " + total);
+36.
+public int sum(int a, int b) {
+    int total = 0;
+    int n = a;
+    while(n <= b) {
+        total += n;
+        n++;
+    }
+    return total;
+}
+37.(wasn't sure which object to put it in)
+public boolean isPrime(int n) {
+    if(n < 2) return false;
+    int divisor = 2;
+    while(divisor < n) {
+        if(n % divisor == 0) {
+            return false;
+        }
+        divisor++;
+    }
+    return true;
+}
+38-39.Did not understand
